@@ -2,21 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
-// import Sidebarpanel from './Sidebarpanel';
-import Features from './Features'
-// import Slide from './Slide'
+import Bdy from './Bdy'
+
 
 function App()
 {
     return(
         <div>
            <Navbar />
-           <div>
-               <br/>
-               <br/>
-               <br/>
-           </div>
-           <Features />
+            <br/>
+            <br/>
+            <br/>
+           <Bdy />
            <Footer />
         </div>
     );

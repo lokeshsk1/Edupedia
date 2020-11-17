@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Standards from './Standards';
 
-function App()
+function Subjects(props)
 {
     return(
         <div>
-           
+            {props.sbj}
         </div>
     );
 }
 
-export default App;
+export default Subjects;
